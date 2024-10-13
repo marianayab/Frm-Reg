@@ -27,7 +27,7 @@ function Signup() {
     setErrors(err);
     if (err.name === "" && err.email === "" && err.password === "") {
       axios
-        .post("http://localhost:4000/signup", values)
+        .post("https://vercel.live/link/entries-repo.vercel.app?via=deployment-domains-list&p=1/signup", values)
         .then((res) => {
           if (res.data === "Success") {
             alert(
