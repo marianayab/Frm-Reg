@@ -1,0 +1,11 @@
+h1 {
+  font-family: cursive;
+  color: green;
+}
+
+.comp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
