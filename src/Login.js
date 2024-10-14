@@ -26,7 +26,7 @@ function Login() {
     setErrors(err);
     if (err.email === "" && err.password === "") {
       axios
-        .post("http://localhost:4000/login", values)
+        .post("https://entries-repo.vercel.app/login", values)
         .then((res) => {
           if (res.data.status === "Success") {
             const usr = res.data.data[0].name;
